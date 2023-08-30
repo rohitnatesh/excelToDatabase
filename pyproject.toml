@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "exceltodatabase"
+version = "0.1.0"
+description = ""
+authors = ["Rohit Natesh <rohit.natesh95@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+pandas = "^2.0.3"
+xlrd = "^2.0.1"
+mysql-connector-python = "^8.1.0"
+openpyxl = "^3.1.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
